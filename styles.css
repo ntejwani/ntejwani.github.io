@@ -19,6 +19,13 @@ h2 {
 
 }
 
+h3 {
+  color: #ffffff;
+  font-family: 'helvetica';
+  font-size: 100%;
+  margin: 38px;
+}
+
 ul {
   list-style-type: none;
   margin: 38px;
