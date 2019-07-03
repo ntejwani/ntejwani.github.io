@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background:#222;
+  position: fixed; /* <-- Look here */
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  color: #e0e0e0;
+}
+.nav-link {
+  margin-left: 1em !important;
+  color: #ffffff;
+
+}
+.nav-link:hover {
+  color: #e0e0e0;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.header {
+  position:relative;
+  background-image: url('images/interlaced.png');
+  background-color: #e0e0e0
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top:45%;
+  transform: translate(-50%, -55%);
+  padding: 2em;
+  text-align: center;
+}
+
+.description h1 {
+  color: #222;
+}
+
+.description p {
+  color: #37474f;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description button {
+  border:1px solid #222;
+  background:#222;
+  border-radius: 0;
+  color:#fff;
+}
+.description button:hover {
+  border:1px solid #fff;
+  background:#fff;
+  color:#000;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+
+}
+.feature-title {
+  color: #222e;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  margin: none;
+  padding: 60px 0 20px;
+  z-index: 1;
+  position:relative;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
