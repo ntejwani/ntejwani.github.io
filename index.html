@@ -23,18 +23,18 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
-  <nav class="navbar navbar-expand-md navbar-fixed-top">
-    <a class="navbar-brand" href="#">Neel Tejwani</a>
+  <nav class="navbar navbar-expand-lg navbar-fixed-top ">
+    <a class="navbar-brand" href="#">Home</a>
     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="main-navigation">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
@@ -43,24 +43,61 @@
     </div>
   </nav>
 
-  <header class="page-header header container-fluid">
+  <header class="page-header container-fluid">
     <div class="description">
-      <h1>Welcome to my website!</h1>
-      <p>I am Neel.</p>
+      <img src="images/profile-picture.png" class="img-fluid rounded-circle" >
+      <h1>Neel Tejwani</h1>
+      <p>CS Student @ University of Maryland
+
+      </p>
       <button class="btn btn-outline-secondary btn-lg" onclick="location.href='#about'">Tell Me More!</button>
     </div>
   </header>
 
+
+  <div id="projects" class="container features">
+    <h2>Recent Projects</h2>
+    <br>
+    <div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Project 1</h3>
+        <a href="projects.html">
+				   <img src="images/code.png" class="img-fluid" alt="sample image">
+        </a>
+        <p>This is a work in progress.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Project 2</h3>
+        <a href="https://linkedin.com/in/neel-tejwani">
+				  <img src="images/code.png" class="img-fluid" >
+        </a>
+				<p>This is a work in progress.</p>
+			</div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <h3 class="feature-title">Project 3</h3>
+        <a href="https://linkedin.com/in/neel-tejwani">
+          <img src="images/code.png" class="img-fluid" >
+        </a>
+        <p>This is a work in progress.</p>
+      </div>
+    </div>
+  </div>
+
   <div id="about" class="container features">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3 class="feature-title">Projects</h3>
-				<img src="images/code.png" class="img-fluid">
-				<p>This is a work in progress.</p>
+				<h3 class="feature-title">Contact</h3>
+        <ul class="list-inline">
+          <li class="list-inline-item">Lorem ipsum</li>
+          <li class="list-inline-item">Phasellus iaculis</li>
+          <li class="list-inline-item">Nulla volutpat</li>
+        </ul>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">LinkedIn</h3>
-				<img src="images/column-2.jpg" class="img-fluid">
+        <a href="https://linkedin.com/in/neel-tejwani">
+				  <img src="images/linkedin.png" class="img-fluid" style="width:50%" >
+        </a>
 				<p>Follow my journey in learning HTML/CSS/JavaScript!.</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
@@ -80,21 +117,6 @@
 	</div>
 
   <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-12">
-        <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-        <p>Text here.</p>
-        <p>Text here.</p>
-      </div>
-      <div id = "contact" class="col-lg-4 col-md-4 col-sm-12">
-        <h6 class="text-uppercase font-weight-bold">Contact</h6>
-        <a href="mailto:neelstejwani@gmail.com">Email</a>
-        <br/> <a href="tel:+1-908-517-6722">Phone</a>
-        <br/><a href="https://linkedin.com/in/neel-tejwani">LinkedIn</a>
-	</p>
-      </div>
-    </div>
     <div class="footer-copyright text-center">© 2019 Copyright: Neel Tejwani</div>
   </footer>
 

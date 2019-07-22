@@ -33,28 +33,32 @@ body {
   justify-content: flex-end;
 }
 
-.header {
-  position:relative;
+.page-header {
   background-image: url('images/interlaced.png');
-  background-color: #e0e0e0
 }
 
 .description {
-  left: 50%;
-  position: absolute;
-  top:45%;
-  transform: translate(-50%, -55%);
-  padding: 2em;
+  padding-top: 5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
   text-align: center;
+
 }
 
 .description h1 {
   color: #222;
 }
 
+.description img {
+  max-width: 230px;
+  max-height: 230px;
+  align: center;
+}
+
 .description p {
   color: #37474f;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   line-height: 1.5;
 }
 
@@ -73,6 +77,7 @@ body {
 .features {
   margin: 4em auto;
   padding: 1em;
+  text-align: -webkit-center;
 
 }
 .feature-title {
@@ -80,7 +85,7 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 20px;
-  text-align: -webkit-center
+  text-align: -webkit-center;
 }
 .features img {
   margin-bottom: 16px;
@@ -89,11 +94,10 @@ body {
   background-color: #222;
   color: #ccc;
   margin: none;
-  padding: 60px 0 20px;
   z-index: 1;
   position:relative;
 }
 .footer-copyright {
   color: #666;
-  padding: 40px 0;
+  padding: 10px 0;
 }
