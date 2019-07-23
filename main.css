@@ -6,10 +6,19 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  color: #E25F54;
+}
+
+a:hover {
+  color: #fd1401 ;
 }
 
 .navbar {
-  background:#222;
+  background:#E25F54;
   position: fixed; /* <-- Look here */
   right: 0;
   left: 0;
@@ -36,11 +45,13 @@ body {
 
 .page-header {
   background-image: url('images/interlaced.png');
+  /* background-color: #93D6C6;*/
 }
 
 .description {
   padding-top: 5em;
   padding-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .description-img {
@@ -58,24 +69,42 @@ body {
   text-align: center;
 }
 
+.description h1 {
+    color:#E25F54;
+    font-weight: 500;
+}
+
 .features {
-  margin-top: 2em;
-  padding: 1em;
+  margin-bottom: 2em;
+  padding: 2em;
   text-align: left;
 
 }
 .feature-title {
-  color: #222e;
+  color: #E25F54;
+
 
   margin-bottom: 20px;
   text-align: left;
 }
+
+.feature-subtitle {
+  color: #222;
+
+  margin-bottom: 20px;
+  text-align: left;
+}
+
 .features img {
   margin-bottom: 16px;
 }
 
+.features i {
+  color: #E25F54
+}
+
 .progress-bar {
-  background-color: #222;
+  background-color: #E25F54;
   font-size: 120%
 }
 
@@ -83,13 +112,13 @@ body {
     height: 2em;
 }
 .page-footer {
-  background-color: #222;
+  background-color: #E25F54;
   color: #ccc;
   margin: none;
   z-index: 1;
   position:relative;
 }
 .footer-copyright {
-  color: #666;
+  color: #ffffff;
   padding: 10px 0;
 }
