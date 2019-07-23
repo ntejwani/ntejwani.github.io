@@ -5,6 +5,7 @@ html {
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar {
@@ -39,56 +40,47 @@ body {
 
 .description {
   padding-top: 5em;
-  padding-left: 2em;
-  padding-right: 2em;
   padding-bottom: 2em;
-  text-align: center;
-
 }
 
-.description h1 {
-  color: #222;
-}
-
-.description img {
+.description-img {
   max-width: 230px;
   max-height: 230px;
-  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.description p {
+.description-content {
   color: #37474f;
   font-size: 1.15rem;
   line-height: 1.5;
-}
-
-.description button {
-  border:1px solid #222;
-  background:#222;
-  border-radius: 0;
-  color:#fff;
-}
-.description button:hover {
-  border:1px solid #fff;
-  background:#fff;
-  color:#000;
+  text-align: center;
 }
 
 .features {
-  margin: 4em auto;
+  margin-top: 2em;
   padding: 1em;
-  text-align: -webkit-center;
+  text-align: left;
 
 }
 .feature-title {
   color: #222e;
-  font-size: 1.4rem;
-  font-weight: 700;
+
   margin-bottom: 20px;
-  text-align: -webkit-center;
+  text-align: left;
 }
 .features img {
   margin-bottom: 16px;
+}
+
+.progress-bar {
+  background-color: #222;
+  font-size: 120%
+}
+
+.progress {
+    height: 2em;
 }
 .page-footer {
   background-color: #222;
