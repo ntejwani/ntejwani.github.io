@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  padding-bottom: 40px;
+  
   margin: 0;
   font-family: 'Quattrocento Sans', sans-serif;
   background-image: url('images/Confetti-Doodles.svg');
@@ -123,6 +123,10 @@ a.anchor {
 }
 
 .features i {
+  color: #E25F54
+}
+
+.features s {
   color: #E25F54
 }
 
