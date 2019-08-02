@@ -3,13 +3,13 @@ html {
 }
 
 body {
-  
   margin: 0;
   font-family: 'Quattrocento Sans', sans-serif;
   background-image: url('images/Confetti-Doodles.svg');
   /* background by SVGBackgrounds.com */
   background-size: 50%;
   background-color: #E25F54;
+  padding-bottom: 0px;
 
 }
 
